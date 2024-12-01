@@ -1,0 +1,91 @@
+
+.home{
+   background-color: #f7ecde; 
+}
+
+
+
+h1{
+   
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+     font-size: 50px;
+   
+     position: relative;
+   z-index: 1;
+   
+}
+/*h1::after{
+   content: '';
+   width: 25%;
+   height: 15%;
+   background-color:#fec260;
+   position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translateX(-50%);
+ z-index: -1;
+ transition: 1s ;
+
+}*/
+
+.bg-title{
+   background-color: #fec260;
+   color:#fec260 ;
+   width: 22%;
+   position: absolute;
+   left: 50%;
+   top: 13%;
+   transform: translateX(-50%);
+}
+
+
+
+.dots{
+
+   border-bottom: dotted #352e28;;
+}
+h2{
+   
+      font-family: "Righteous", sans-serif;
+      
+      font-style: normal;
+    
+    
+}
+.head{
+   background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.site-name{
+   font-family: "PT Sans Caption", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+}
+.site-url{
+   font-family: "PT Sans Caption", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+}
+
+h4{
+   font-family: "Pacifico", cursive;
+   font-weight: 400;
+   font-style: normal;
+font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<div class="home">
+    <div class="container">
+        <div>
+            <h1 class="text-center p-5 "> Bookmarker</h1>
+        <div class="bg-title"> .</div>
+        </div>
+        <div class="dots"></div>
+       <div class="head d-flex justify-content-center align-items-center">
+        <i class=" fs-3 fa-solid fa-bookmark"></i>
+        <h2 class="p-3 text-center fw-normal fs-3">Bookmark your favorite sites</h2>
+        <i class=" fs-3 fa-solid fa-bookmark"></i>
+       </div>
+       <div class="mb-3 p-3">
+        <label for="site-name" class="site-name form-label"><i class="fa-solid fa-book-bookmark pe-2"></i> Site Name</label>
+        <input type="text" class="form-control" id="site-name" placeholder="Bookmark Name">
+      </div>
+      <div class="mb-3 px-3 pb-3">
+        <label for="site-url" class="site-url form-label"><i class="fa-solid fa-link pe-2"></i> Site URL</label>
+        <input type="link" class="form-control" id="site-url" placeholder="Website URL">
+      </div>
+    
+      <div class="d-flex justify-content-center align-items-center">
+        <button type="button" onclick=" addUrl()" class="btn btn-danger px-5  " >Submit</button>
+        
+      </div>
+      <div class="dots p-3"></div>
+    
+    
+       <div class="container">
+        <div id="rowData" class="row">
+
+        </div>
+       </div>
+
+     
+    </div>
+    
+
+     
+      <h4 class="text-center p-5">Thank You</h4>
+    </div>
+   
+</div>
+
+
+    
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
